@@ -23,10 +23,9 @@ namespace ConsoleApp3._8
             {
                 int first= array[0];
 
-                for (int j = 0; j < array.Length-1; j++)
+                for (int j = 0; j < array.Length - 1; j++)
                 {                    
-                    array[j] = array[j+1];
-                    
+                    array[j] = array[j + 1];                    
                 }
                 array[array.Length - 1] = first;
             }
